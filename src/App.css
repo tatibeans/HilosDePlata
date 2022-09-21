@@ -1,5 +1,43 @@
-.App {
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 420px;
+  /* box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px; */
+  padding-top: 30px;
+  padding-bottom: 20px;
+  /* border-radius: 8px; */
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
   text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+
+.App {
+  background: white;
 }
 
 .App-logo {
@@ -14,10 +52,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -25,7 +62,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: black;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +73,30 @@
     transform: rotate(360deg);
   }
 }
+
+.bs-card-img{
+
+border: 0 !important;
+
+}
+
+.titulo{
+color: white !important;
+
+}
+
+
+.divHeader{
+background-color: white;
+
+}
+
+
+.divOpciones{
+background-color: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+
+}
+
+
+
+
